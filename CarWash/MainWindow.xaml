@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CarWash"
         xmlns:lvc = "clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="Car Wash" Height="Auto" MinHeight="768" MaxHeight="1080" Width="Auto" MinWidth="1024" MaxWidth="1920" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" WindowState="Maximized">
+        Title="Car Wash" Height="764" MinHeight="768" MaxHeight="1080" Width="Auto" MinWidth="1024" MaxWidth="1920" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="ToolWindow">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" MinHeight="164" MaxHeight="187"></RowDefinition>
@@ -39,7 +39,7 @@
                     Foreground="White" 
                     FontSize="21">
             </Button>
-            
+
             <Button x:Name="ProfitClient"
                     Height="80"
                     Margin="8, 8, 0, 0"
@@ -68,18 +68,25 @@
                            Margin="85, 20, 0, 0" 
                            FontSize="21">Car Wash</TextBlock>
             </StackPanel>
-            <TextBlock Foreground="White" 
+            <DockPanel>
+                <StackPanel>
+                    <TextBlock Foreground="White" 
                        Margin="85, 29, 0, 0" 
                        FontSize="21">Welcome: admin</TextBlock>
-            <TextBlock Foreground="White" 
+                    <TextBlock Foreground="White" 
                        Margin="131, 0, 0, 0" 
                        FontSize="21">Role: admin</TextBlock>
-        
+                </StackPanel>
+                <TextBlock
+                    Margin="0,0,42,0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Foreground="White" 
+                    FontSize="21">Time</TextBlock>
+            </DockPanel>
         </StackPanel>
-        <StackPanel Grid.Row="0" Grid.Column="1">
-            <TextBlock
-                Foreground="Black" 
-                FontSize="21">Time</TextBlock>
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+
         </StackPanel>
     </Grid>
 </Window>
