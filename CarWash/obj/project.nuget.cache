@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SHr6DI2RXMYxXGudB9eHwKEoWaIhl/ujdnqv6+iXBn66g1EiD1F1+7iEi8522lFaowlwKpwh2UuTtVWl1vt+4w==",
+  "dgSpecHash": "+jD28ML8EO+K4Wgda1wytMdw3oyqgL78AB/hf7pWqftvWaKaNL43TKMRqqYXyyUvREouYYUcYy3c7YC2+BpeuQ==",
   "success": true,
-  "projectFilePath": "D:\\car\\CarWash\\CarWash\\CarWash.csproj",
+  "projectFilePath": "D:\\repozitorii\\CarWash\\CarWash.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serdi\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\serdi\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"

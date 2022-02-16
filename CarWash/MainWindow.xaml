@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CarWash"
         xmlns:lvc = "clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="Car Wash" Height="Auto" MinHeight="768" MaxHeight="1080" Width="Auto" MinWidth="1024" MaxWidth="1920" WindowStartupLocation="CenterScreen" Icon="/128_128.ico" WindowStyle="SingleBorderWindow" WindowState="Maximized">
+        Title="Car Wash" Height="Auto" MinHeight="768" MaxHeight="1080" Width="Auto" MinWidth="1024" MaxWidth="1920" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" WindowState="Maximized">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" MinHeight="164" MaxHeight="187"></RowDefinition>
