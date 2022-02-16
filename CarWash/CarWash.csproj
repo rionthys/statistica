@@ -8,7 +8,18 @@
 
   <ItemGroup>
     <None Remove="128_128.ico" />
+    <None Remove="Group 10.png" />
+    <None Remove="Group 2.png" />
     <None Remove="icons8_diagonal_arrows_right_32.png" />
+    <None Remove="Images\128_128.ico" />
+    <None Remove="Images\8s9H4JrJg2c.jpg" />
+    <None Remove="Images\Group 10.svg" />
+    <None Remove="Images\Group 3.svg" />
+    <None Remove="Images\Group 9.png" />
+    <None Remove="Images\Group 9.svg" />
+    <None Remove="Images\icons8_delete_32.png" />
+    <None Remove="Images\icons8_diagonal_arrows_right_32.png" />
+    <None Remove="Images\poza_originala.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,13 +27,27 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Resources\" />
   </ItemGroup>
 
   <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="128_128.ico" />
+    <Resource Include="Group 10.png" />
+    <Resource Include="Group 2.png" />
     <Resource Include="icons8_diagonal_arrows_right_32.png" />
+    <Resource Include="Images\128_128.ico" />
+    <Resource Include="Images\8s9H4JrJg2c.jpg" />
+    <Resource Include="Images\Group 10.svg" />
+    <Resource Include="Images\Group 3.svg" />
+    <Resource Include="Images\Group 9.png" />
+    <Resource Include="Images\Group 9.svg" />
+    <Resource Include="Images\icons8_delete_32.png" />
+    <Resource Include="Images\icons8_diagonal_arrows_right_32.png" />
+    <Resource Include="Images\poza_originala.png" />
   </ItemGroup>
 
   <ItemGroup>

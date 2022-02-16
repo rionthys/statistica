@@ -31,11 +31,8 @@ D:\repozitorii\CarWash\bin\Debug\netcoreapp3.1\CarWash.pdb
 D:\repozitorii\CarWash\bin\Debug\netcoreapp3.1\LiveCharts.dll
 D:\repozitorii\CarWash\bin\Debug\netcoreapp3.1\LiveCharts.Wpf.dll
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.csproj.AssemblyReference.cache
-D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\App.g.cs
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash_MarkupCompile.cache
-D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash_MarkupCompile.lref
-D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\MainWindow.baml
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.g.resources
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.ImagesResource.resources
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.csproj.GenerateResource.cache
@@ -46,3 +43,8 @@ D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.csproj.CoreCompileInputs.
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.dll
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.pdb
 D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash.genruntimeconfig.cache
+D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
+D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\CarWash_MarkupCompile.lref
+D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\View\MainWindow.baml
+D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\View\Profit Bani.g.cs
+D:\repozitorii\CarWash\obj\Debug\netcoreapp3.1\View\Profit Bani.baml
