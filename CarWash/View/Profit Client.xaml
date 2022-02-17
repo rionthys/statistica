@@ -1,0 +1,72 @@
+﻿<Window x:Class="CarWash.View.Profit_Client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarWash.View"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="Profit_Client" Height="Auto" Width="Auto" MinHeight="783" MinWidth="1444" AllowsTransparency="True" WindowStyle="None">
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="CleanSeparator" TargetType="lvc:Separator">
+                <Setter Property="IsEnabled" Value="False"></Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Margin="54, 50 , 54, 0">
+            <lvc:CartesianChart Grid.Row="0">
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Foreground="DodgerBlue" Title="Blue Axis"/>
+                </lvc:CartesianChart.AxisY>
+                <lvc:CartesianChart.Series>
+                    <lvc:LineSeries Values="1,5,3,5,3" ScalesYAt="0"/>
+                </lvc:CartesianChart.Series>
+            </lvc:CartesianChart>
+        </Grid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0, 25" Height="Auto">
+            <StackPanel Orientation="Vertical" 
+                        Background="#094A9E" 
+                        Width="440" 
+                        Height="200"
+                        Margin="57, 0, 0, 0">
+                <StackPanel>
+                    <TextBlock Foreground="White" 
+                           FontSize="21"
+                           FontFamily="Roboto">
+                        Data:
+                    </TextBlock>
+                    <Calendar Height="165" Width="212">
+                    </Calendar>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" 
+                        Background="#094A9E" 
+                        Width="440" 
+                        Height="200"
+                        Margin="18, 0, 0, 0">
+                <StackPanel Margin="20" Orientation="Horizontal">
+                    <TextBlock Foreground="White" 
+                           FontSize="21"
+                           FontFamily="Roboto"
+                           >Data:</TextBlock>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" 
+                        Background="#094A9E" 
+                        Width="440" 
+                        Height="200"
+                        Margin="18, 0, 57, 0">
+                <StackPanel Margin="20" Orientation="Horizontal">
+                    <TextBlock Foreground="White" 
+                           FontSize="21"
+                           FontFamily="Roboto"
+                           >Data:</TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
