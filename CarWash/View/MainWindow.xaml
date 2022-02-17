@@ -178,11 +178,9 @@
                     HorizontalAlignment="Right"
                     VerticalAlignment="Center"
                     Foreground="White" 
-                    FontSize="21">Time</TextBlock>
+                    FontSize="21"
+                    Text="{Binding Time, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"></TextBlock>
             </DockPanel>
-        </StackPanel>
-        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
-
         </StackPanel>
     </Grid>
 </Window>

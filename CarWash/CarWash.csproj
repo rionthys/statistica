@@ -13,10 +13,7 @@
     <None Remove="icons8_diagonal_arrows_right_32.png" />
     <None Remove="Images\128_128.ico" />
     <None Remove="Images\8s9H4JrJg2c.jpg" />
-    <None Remove="Images\Group 10.svg" />
-    <None Remove="Images\Group 3.svg" />
     <None Remove="Images\Group 9.png" />
-    <None Remove="Images\Group 9.svg" />
     <None Remove="Images\icons8_delete_32.png" />
     <None Remove="Images\icons8_diagonal_arrows_right_32.png" />
     <None Remove="Images\poza_originala.png" />
@@ -41,10 +38,7 @@
     <Resource Include="icons8_diagonal_arrows_right_32.png" />
     <Resource Include="Images\128_128.ico" />
     <Resource Include="Images\8s9H4JrJg2c.jpg" />
-    <Resource Include="Images\Group 10.svg" />
-    <Resource Include="Images\Group 3.svg" />
     <Resource Include="Images\Group 9.png" />
-    <Resource Include="Images\Group 9.svg" />
     <Resource Include="Images\icons8_delete_32.png" />
     <Resource Include="Images\icons8_diagonal_arrows_right_32.png" />
     <Resource Include="Images\poza_originala.png" />
